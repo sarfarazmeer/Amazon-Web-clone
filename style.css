@@ -1,0 +1,608 @@
+  @import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Young+Serif&display=swap');
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .navbar {
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .nav-logo {
+    height: 50px;
+    width: 155px;
+  }
+
+  .logo {
+    background-image: url(image/amazonlogo.png);
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+    cursor: pointer;
+    padding-bottom: 5px;
+  }
+
+  .border {
+    border: 2px solid transparent;
+  }
+
+  .border:hover {
+    border: 2px solid white;
+  }
+
+  /** box2**/
+
+  .add-first {
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 17px;
+  }
+
+  .add-second {
+    font-size: 1rem;
+    margin-left: 4px;
+
+  }
+
+  .add-icon {
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-address {
+    height: 50px;
+    line-height: 17px;
+    cursor: pointer;
+    padding: 0px 9px 0 9px;
+    margin: 5px 2px 5px 0;
+  }
+
+  .nav-address:hover {
+    border: 2px solid white;
+  }
+
+  /** box3 **/
+
+  .nav-search {
+    display: flex;
+    width: 660px;
+    background-color: pink;
+    height: 40px;
+    border-radius: 4px;
+  }
+
+  .search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+  }
+
+  .search-select {
+    background-color: #f3f3f3;
+    width: 50px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+    cursor: pointer;
+
+  }
+
+  .search-icon {
+    font-size: 1.5rem;
+    background-color: #febd68;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+    cursor: pointer;
+  }
+
+  .search-icon:hover {
+    background-color: orange;
+  }
+
+  .nav-search:hover {
+    border: 2px solid orange;
+  }
+
+  /** box4**/
+  span {
+    font-size: 0.7rem;
+  }
+
+  .nav-second {
+    font-size: 0.85rem;
+    font-weight: 700;
+  }
+
+  /** box5**/
+
+  .nav-signin {
+    cursor: pointer;
+    padding: 0 9px 10px 9px;
+  }
+
+  .nav-return {
+    cursor: pointer;
+    padding: 0 9px 10px 9px;
+  }
+
+  .nav-cart i {
+    font-size: 30px;
+    cursor: pointer;
+  }
+
+  .nav-cart {
+    font-size: 0.85rem;
+    font-weight: 700;
+    padding: 0 9px 10px 9px;
+  }
+
+  /** panel start**/
+
+  .panel {
+    display: flex;
+    height: 40px;
+    background-color: #222f3d;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+
+  }
+
+  .panel:hover{
+    cursor:pointer;
+  }
+
+  .panel-opt {
+    width: 70%;
+    font-size: 0.85rem;
+  }
+
+  .panel-opt p {
+    margin-left: 15px;
+    display: inline;
+  }
+
+  .panel-deal {
+    font-size: 0.9rem;
+    font-weight: 700;
+
+  }
+
+  .borders {
+    padding: 8px 9px;
+    padding-top: 5px;
+    padding-bottom: 6px;
+  }
+
+  /** hero-section**/
+  .hero-section {
+    position: relative;
+    background-image: url(image/heroimage.jpg);
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+  }
+  .hero-section:hover{
+    cursor: pointer;
+  }
+
+  .hero-msg {
+    background-color: #f5f6f6;
+    color: #0f1111;
+    height: 40px;
+    width: 97%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    font-size: 0.85rem;
+    bottom: 308px;
+
+  }
+
+  .hero-msg a {
+    color: #007185;
+    text-decoration: none;
+  }
+
+  /** shop section start**/
+
+  /** this is box 1**/
+
+  .shop-section {
+    display: flex;
+    justify-content: space-evenly;
+    height: 410px;
+    position: absolute;
+    bottom: -123px;
+    width: 100%;
+
+
+  }
+
+  .box {
+    height: 440px;
+    /* border: 2px solid black; */
+    width: 290px;
+    background-color: white;
+    padding: 12px 0;
+  }
+
+  .box :hover {
+    cursor: pointer;
+  }
+
+  .box-img {
+    height: 115.85px;
+    width: 185.76px;
+    margin: -128px 0px 12px 135px;
+    background-size: cover;
+  }
+
+  .box-img img {
+    height: 100px;
+    width: 127px;
+  }
+
+  .box1 .text {
+    font-size: 12px;
+    color: #0f1111;
+    display: inline;
+    margin-left: 30px;
+  }
+
+  .box-img1 img {
+    width: 100px;
+    height: 115px;
+    margin: 0px 0px 0px 10px;
+  }
+
+  .text1 {
+    margin-left: 10px;
+    font-size: 12px;
+  }
+
+  .box-img2 img {
+    width: 137px;
+    height: 122px;
+    margin: -201px 6px 3px 0px;
+  }
+
+  .text2 {
+    font-size: 12px;
+    margin: -7px 0 0px 9px;
+  }
+
+  .box-img3 {
+    width: 100px;
+    height: 137px;
+  }
+
+  .box-img3 img {
+    width: 141px;
+    height: 146px;
+    margin: 1px 0 0 138px;
+  }
+
+  .text3 {
+    margin: 1px 0 0 175px;
+    font-size: 12px;
+  }
+
+  .box1 h2 {
+    padding: 7px 0px 16px 22px;
+    font-weight: 600;
+    font-size: 21px;
+  }
+
+  .box1 .lastseen {
+    font-size: 13px;
+    color: #007185;
+    margin: 28px 0 0 20px;
+  }
+
+  .box1 .lastseen:hover {
+    color: orange;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  /** this is box 2**/
+  .box2-img {
+    background-image: url(image/boximg5.jpg);
+    height: 318px;
+    width: 260px;
+    background-size: cover;
+    background-position: center;
+    margin: 10px 13px 0 13px;
+  }
+
+  .box2 h2 {
+    padding-left: 13px;
+
+  }
+
+  .box2 p {
+    font-size: 13px;
+    color: #007185;
+    margin: 28px 0 0 13px;
+  }
+
+  .box2 p:hover {
+    color: orange;
+    cursor: pointer;
+  }
+
+  .box3-img {
+    background-image: url(image/boximg6.jpg);
+    height: 318px;
+    width: 260px;
+    background-size: cover;
+    background-position: center;
+    margin: 10px 13px 0 13px;
+  }
+
+  .box3 h2 {
+    padding-left: 13px;
+
+  }
+
+  .box3 p {
+    font-size: 13px;
+    color: #007185;
+    margin: 28px 0 0 13px;
+
+  }
+
+  .box3 p:hover {
+    color: orange;
+    cursor: pointer;
+  }
+
+  .box4-img {
+    background-image: url(image/boximg7.jpg);
+    height: 318px;
+    width: 260px;
+    background-size: cover;
+    background-position: center;
+    margin: 10px 13px 0 13px;
+  }
+  .box4 h2{
+    padding-left: 13px;
+
+  }
+  .box4 p{
+    font-size: 13px;
+    color: #007185;
+    margin: 28px 0 0 13px;
+
+  }
+  .box4 p:hover{
+    color: orange;
+    cursor: pointer;
+
+  }
+/** second menu of shopping has started**/
+  .shop-section2{
+    display: flex;
+    justify-content: space-evenly;
+    height: 410px;
+    position: absolute;
+    bottom: -595px;
+    width: 100%;
+ 
+  }
+
+  /** box5 start**/
+  .box5-img {
+    background-image: url(image/boximg8.jpg);
+    height: 318px;
+    width: 260px;
+    background-size: cover;
+    background-position: center;
+    margin: 10px 13px 0 13px;
+  }
+  .box5 h2{
+    padding-left: 13px;
+    font-size: 21px;
+
+  }
+  .box5 p{
+    font-size: 13px;
+    color: #007185;
+    margin: 28px 0 0 13px;
+
+  }
+  .box5 p:hover{
+    color: orange;
+    cursor: pointer;
+  }
+
+  /** box6 start here**/
+  .box6-img {
+    background-image: url(image/boximg9.jpg);
+    height: 318px;
+    width: 260px;
+    background-size: cover;
+    background-position: center;
+    margin: 10px 13px 0 13px;
+  }
+  .box6 h2{
+    padding-left: 13px;
+    font-size: 21px;
+
+  }
+  .box6 p{
+    font-size: 13px;
+    color: #007185;
+    margin: 28px 0 0 13px;
+
+  }
+  .box6 p:hover{
+    color: orange;
+    cursor: pointer;
+  }
+   /** box7 start here**/
+
+   .box7-img {
+    background-image: url(image/boximg10.jpg);
+    height: 318px;
+    width: 285px;
+    background-size: cover;
+    background-position: center;
+    /* margin: 10px 13px 0 13px; */
+  }
+  .box7 h2{
+    padding-left: 13px;
+    padding-bottom:12px;
+    font-size: 21px;
+
+  }
+  .box7 p{
+    font-size: 13px;
+    color: #007185;
+    margin: 28px 0 0 13px;
+
+  }
+  .box7 p:hover{
+    color: orange;
+    cursor: pointer;
+  }
+
+  /** box8 start here**/
+  .box8-img {
+    background-image: url(image/boximg11.jpg);
+    height: 318px;
+    width: 260px;
+    background-size: cover;
+    background-position: center;
+    margin: 10px 13px 0 13px;
+  }
+  .box8 h2{
+    padding-left: 13px;
+    font-size: 21px;
+
+  }
+  .box8 p{
+    font-size: 13px;
+    color: #007185;
+    margin: 28px 0 0 13px;
+
+  }
+  .box8 p:hover{
+    color: orange;
+    cursor: pointer;
+  }
+
+  /** footer has start here**/
+  footer{
+    margin-top:15px;
+
+    
+  }
+
+  .foot-panel1{
+    bottom: -625px;
+    position: relative;
+    background-color: #37475a;
+    color:white;
+    height:50px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:0.85rem;
+  }
+  .foot-panel1:hover{
+    background-color: #566a82;
+    cursor: pointer;
+  }
+
+  .foot-panel2{
+    bottom: -625px;
+    position: relative;
+    background-color: #222f3d;
+    color:white;
+    height:350px;
+    display:flex;
+    justify-content: space-evenly;
+  }
+  ul{
+    margin-top:20px;
+  }
+  ul a{
+    display: block;
+    font-size:0.85rem;
+    color:#dddddd;
+    margin-top:10px;
+  }
+  ul a:hover{
+    text-decoration: underline #dddddd;;
+    cursor: pointer;
+  }
+  ul p{
+    font-weight: bold;
+    padding-bottom: 10px;
+    font-size: 16px;
+  }
+
+  .foot-panel3{
+    bottom: -625px;
+    position: relative;
+    background-color: #222f3d;
+    border-top:0.5px solid #dddddd;
+    height:70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .foot-panel3 .logo{
+    background-image: url(image/amazonlogo.png);
+    background-size: cover;
+    /* background-position: center; */
+    height: 50px;
+    width: 150px;
+  }
+  
+  .foot-panel4{
+    bottom: -625px;
+    position: relative;
+    background-color:#0f1111;
+    color:#dddddd;
+    font-size:0.7rem;
+    text-align:center;
+    height:90px;
+    }
+
+  .pages{
+    padding-top:25px;
+  }
+  .pages a{
+    padding: 0 7.2px;
+
+  }
+  .pages a:hover{
+    text-decoration: underline #dddddd;
+    cursor:pointer;
+  }
+  .copyright{
+    padding-top:5px;
+  }
+
+
+
+
+
